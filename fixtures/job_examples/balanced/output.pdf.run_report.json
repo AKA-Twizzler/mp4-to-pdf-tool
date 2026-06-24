@@ -1,0 +1,60 @@
+{
+  "assemble": {
+    "atomic_rename": "fixtures/job_examples/balanced/output.pdf.tmp -> fixtures/job_examples/balanced/output.pdf",
+    "output_pdf_tmp": "fixtures/job_examples/balanced/output.pdf.tmp",
+    "pages_written": 5,
+    "pdf_nodate": true,
+    "selected_manifest_path": ".sisyphus/evidence/task12_batch_jobs/balanced/.mp4_to_pdf_tmp/manifest.selected.txt"
+  },
+  "extract": {
+    "frames_extracted": 5,
+    "manifest_path": ".sisyphus/evidence/task12_batch_jobs/balanced/.mp4_to_pdf_tmp/manifest.txt",
+    "workspace_dir": ".sisyphus/evidence/task12_batch_jobs/balanced/.mp4_to_pdf_tmp"
+  },
+  "input_mp4": "fixtures/cfr10_3s.mp4",
+  "job_dir": ".sisyphus/evidence/task12_batch_jobs/balanced",
+  "job_name": "balanced",
+  "options_path": ".sisyphus/evidence/task12_batch_jobs/balanced/options.md",
+  "output_pdf": "fixtures/job_examples/balanced/output.pdf",
+  "preflight": {
+    "exit_code": 1,
+    "status": "FAIL"
+  },
+  "quality_profile": "jpeg_balanced",
+  "report_path": "fixtures/job_examples/balanced/output.pdf.run_report.json",
+  "selection": {
+    "duration_seconds": "5",
+    "frame_count": 5,
+    "mode": "fps",
+    "selected_count": 5,
+    "selected_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_fps": "1"
+  },
+  "status": "PASS",
+  "timing": {
+    "assemble_ms": 27.676,
+    "extract_ms": 30.634,
+    "total_ms": 168.306
+  },
+  "verify": {
+    "checks": {
+      "expected_pages": 5,
+      "gs_parse_ok": true,
+      "manifest_frames": 5,
+      "manifest_path": ".sisyphus/evidence/task12_batch_jobs/balanced/.mp4_to_pdf_tmp/manifest.selected.txt",
+      "pages_match_expected": true,
+      "pages_match_manifest": true,
+      "pdf_path": "fixtures/job_examples/balanced/output.pdf.tmp",
+      "pdf_size_bytes": 488,
+      "pdfinfo_pages": 5,
+      "pdfinfo_readable": true
+    },
+    "status": "PASS"
+  }
+}

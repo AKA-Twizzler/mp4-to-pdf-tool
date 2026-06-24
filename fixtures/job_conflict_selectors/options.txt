@@ -1,0 +1,6 @@
+mode: fps
+quality_profile: jpeg_balanced
+input_mp4: fixtures/cfr10_3s.mp4
+output_pdf: fixtures/job_conflict_selectors/output.pdf
+selector_fps: 2
+selector_every_nth: 5

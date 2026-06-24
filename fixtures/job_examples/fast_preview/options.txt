@@ -1,0 +1,5 @@
+mode: every_nth
+quality_profile: jpeg_fast
+input_mp4: fixtures/cfr10_3s.mp4
+output_pdf: fixtures/job_examples/fast_preview/output.pdf
+selector_every_nth: 10

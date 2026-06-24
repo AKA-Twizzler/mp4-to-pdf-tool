@@ -1,0 +1,56 @@
+{
+  "assemble": {
+    "atomic_rename": "fixtures/job_examples/fast_preview/output.pdf.tmp -> fixtures/job_examples/fast_preview/output.pdf",
+    "output_pdf_tmp": "fixtures/job_examples/fast_preview/output.pdf.tmp",
+    "pages_written": 1,
+    "pdf_nodate": true,
+    "selected_manifest_path": ".sisyphus/evidence/task12_batch_jobs/fast_preview/.mp4_to_pdf_tmp/manifest.selected.txt"
+  },
+  "extract": {
+    "frames_extracted": 5,
+    "manifest_path": ".sisyphus/evidence/task12_batch_jobs/fast_preview/.mp4_to_pdf_tmp/manifest.txt",
+    "workspace_dir": ".sisyphus/evidence/task12_batch_jobs/fast_preview/.mp4_to_pdf_tmp"
+  },
+  "input_mp4": "fixtures/cfr10_3s.mp4",
+  "job_dir": ".sisyphus/evidence/task12_batch_jobs/fast_preview",
+  "job_name": "fast_preview",
+  "options_path": ".sisyphus/evidence/task12_batch_jobs/fast_preview/options.txt",
+  "output_pdf": "fixtures/job_examples/fast_preview/output.pdf",
+  "preflight": {
+    "exit_code": 1,
+    "status": "FAIL"
+  },
+  "quality_profile": "jpeg_fast",
+  "report_path": "fixtures/job_examples/fast_preview/output.pdf.run_report.json",
+  "selection": {
+    "duration_seconds": "5",
+    "frame_count": 5,
+    "mode": "every_nth",
+    "selected_count": 1,
+    "selected_indices": [
+      0
+    ],
+    "source_fps": "1"
+  },
+  "status": "PASS",
+  "timing": {
+    "assemble_ms": 27.364,
+    "extract_ms": 31.176,
+    "total_ms": 170.668
+  },
+  "verify": {
+    "checks": {
+      "expected_pages": 1,
+      "gs_parse_ok": true,
+      "manifest_frames": 1,
+      "manifest_path": ".sisyphus/evidence/task12_batch_jobs/fast_preview/.mp4_to_pdf_tmp/manifest.selected.txt",
+      "pages_match_expected": true,
+      "pages_match_manifest": true,
+      "pdf_path": "fixtures/job_examples/fast_preview/output.pdf.tmp",
+      "pdf_size_bytes": 132,
+      "pdfinfo_pages": 1,
+      "pdfinfo_readable": true
+    },
+    "status": "PASS"
+  }
+}

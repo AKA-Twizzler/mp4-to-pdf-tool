@@ -1,0 +1,45 @@
+{
+  "assemble": {
+    "pages_written": 3,
+    "pdf_nodate": true,
+    "selected_manifest_path": "fixtures/batch_jobs/job_valid/.mp4_to_pdf_tmp/manifest.selected.txt"
+  },
+  "extract": {
+    "frames_extracted": 5,
+    "manifest_path": "fixtures/batch_jobs/job_valid/.mp4_to_pdf_tmp/manifest.txt",
+    "workspace_dir": "fixtures/batch_jobs/job_valid/.mp4_to_pdf_tmp"
+  },
+  "input_mp4": "fixtures/batch_jobs/job_valid/input.mp4",
+  "job_dir": "fixtures/batch_jobs/job_valid",
+  "job_name": "job_valid",
+  "options_path": "fixtures/batch_jobs/job_valid/options.txt",
+  "output_pdf": "fixtures/batch_jobs/job_valid/output.pdf",
+  "preflight": {
+    "exit_code": 1,
+    "status": "FAIL"
+  },
+  "quality_profile": "jpeg_balanced",
+  "report_path": "fixtures/batch_jobs/job_valid/output.pdf.run_report.json",
+  "selection": {
+    "duration_seconds": "5",
+    "frame_count": 5,
+    "mode": "every_nth",
+    "selected_count": 3,
+    "selected_indices": [
+      0,
+      2,
+      4
+    ],
+    "source_fps": "1"
+  },
+  "status": "PASS",
+  "verify": {
+    "checks": {
+      "assembled_pages": 3,
+      "output_exists": true,
+      "output_nonzero_bytes": true
+    },
+    "note": "Entrypoint verification scaffold only; full verification gate is implemented in task 9.",
+    "status": "PASS"
+  }
+}

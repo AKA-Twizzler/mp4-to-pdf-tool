@@ -1,0 +1,60 @@
+{
+  "assemble": {
+    "atomic_rename": "fixtures/job_examples/max_quality/output.pdf.tmp -> fixtures/job_examples/max_quality/output.pdf",
+    "output_pdf_tmp": "fixtures/job_examples/max_quality/output.pdf.tmp",
+    "pages_written": 5,
+    "pdf_nodate": true,
+    "selected_manifest_path": "fixtures/job_examples/max_quality/.mp4_to_pdf_tmp/manifest.selected.txt"
+  },
+  "extract": {
+    "frames_extracted": 5,
+    "manifest_path": "fixtures/job_examples/max_quality/.mp4_to_pdf_tmp/manifest.txt",
+    "workspace_dir": "fixtures/job_examples/max_quality/.mp4_to_pdf_tmp"
+  },
+  "input_mp4": "fixtures/cfr10_3s.mp4",
+  "job_dir": "fixtures/job_examples/max_quality",
+  "job_name": "max_quality",
+  "options_path": "fixtures/job_examples/max_quality/options.md",
+  "output_pdf": "fixtures/job_examples/max_quality/output.pdf",
+  "preflight": {
+    "exit_code": 1,
+    "status": "FAIL"
+  },
+  "quality_profile": "png_lossless",
+  "report_path": "fixtures/job_examples/max_quality/output.pdf.run_report.json",
+  "selection": {
+    "duration_seconds": "5",
+    "frame_count": 5,
+    "mode": "every_frame",
+    "selected_count": 5,
+    "selected_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_fps": "1"
+  },
+  "status": "PASS",
+  "timing": {
+    "assemble_ms": 29.484,
+    "extract_ms": 32.536,
+    "total_ms": 376.461
+  },
+  "verify": {
+    "checks": {
+      "expected_pages": 5,
+      "gs_parse_ok": true,
+      "manifest_frames": 5,
+      "manifest_path": "fixtures/job_examples/max_quality/.mp4_to_pdf_tmp/manifest.selected.txt",
+      "pages_match_expected": true,
+      "pages_match_manifest": true,
+      "pdf_path": "fixtures/job_examples/max_quality/output.pdf.tmp",
+      "pdf_size_bytes": 428,
+      "pdfinfo_pages": 5,
+      "pdfinfo_readable": true
+    },
+    "status": "PASS"
+  }
+}

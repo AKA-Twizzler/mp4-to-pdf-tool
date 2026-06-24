@@ -1,0 +1,60 @@
+{
+  "assemble": {
+    "atomic_rename": "/home/trism/AI-Terminal-Projects/Private/fixtures/job_fps_balanced/output.pdf.tmp -> /home/trism/AI-Terminal-Projects/Private/fixtures/job_fps_balanced/output.pdf",
+    "output_pdf_tmp": "/home/trism/AI-Terminal-Projects/Private/fixtures/job_fps_balanced/output.pdf.tmp",
+    "pages_written": 5,
+    "pdf_nodate": true,
+    "selected_manifest_path": "fixtures/job_fps_balanced/.mp4_to_pdf_tmp/manifest.selected.txt"
+  },
+  "extract": {
+    "frames_extracted": 5,
+    "manifest_path": "fixtures/job_fps_balanced/.mp4_to_pdf_tmp/manifest.txt",
+    "workspace_dir": "fixtures/job_fps_balanced/.mp4_to_pdf_tmp"
+  },
+  "input_mp4": "/home/trism/AI-Terminal-Projects/Private/fixtures/cfr10_3s.mp4",
+  "job_dir": "fixtures/job_fps_balanced",
+  "job_name": "job_fps_balanced",
+  "options_path": "fixtures/job_fps_balanced/options.md",
+  "output_pdf": "/home/trism/AI-Terminal-Projects/Private/fixtures/job_fps_balanced/output.pdf",
+  "preflight": {
+    "exit_code": 1,
+    "status": "FAIL"
+  },
+  "quality_profile": "jpeg_balanced",
+  "report_path": "/home/trism/AI-Terminal-Projects/Private/fixtures/job_fps_balanced/output.pdf.run_report.json",
+  "selection": {
+    "duration_seconds": "5",
+    "frame_count": 5,
+    "mode": "fps",
+    "selected_count": 5,
+    "selected_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_fps": "1"
+  },
+  "status": "PASS",
+  "timing": {
+    "assemble_ms": 31.265,
+    "extract_ms": 34.47,
+    "total_ms": 404.17
+  },
+  "verify": {
+    "checks": {
+      "expected_pages": 5,
+      "gs_parse_ok": true,
+      "manifest_frames": 5,
+      "manifest_path": "fixtures/job_fps_balanced/.mp4_to_pdf_tmp/manifest.selected.txt",
+      "pages_match_expected": true,
+      "pages_match_manifest": true,
+      "pdf_path": "/home/trism/AI-Terminal-Projects/Private/fixtures/job_fps_balanced/output.pdf.tmp",
+      "pdf_size_bytes": 388,
+      "pdfinfo_pages": 5,
+      "pdfinfo_readable": true
+    },
+    "status": "PASS"
+  }
+}

@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+.pytest_cache/
+*.pyc
+venv/
+
+# Project-specific
+.sisyphus/
+.env
+.DS_Store
+*.mp4
+*.pdf
+jobs/

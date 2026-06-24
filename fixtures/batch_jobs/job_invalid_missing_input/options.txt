@@ -1,0 +1,4 @@
+mode: every_frame
+quality_profile: jpeg_balanced
+input_mp4: input.mp4
+output_pdf: output.pdf

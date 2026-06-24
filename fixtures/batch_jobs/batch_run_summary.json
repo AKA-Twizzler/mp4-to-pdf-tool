@@ -1,0 +1,27 @@
+{
+  "failed_jobs": 1,
+  "halted": true,
+  "halted_job": "job_invalid_missing_input",
+  "jobs": [
+    {
+      "error_code": "E_JOB_INVALID",
+      "error_message": "input_mp4 not found: fixtures/batch_jobs/job_invalid_missing_input/input.mp4",
+      "job_dir": "fixtures/batch_jobs/job_invalid_missing_input",
+      "job_name": "job_invalid_missing_input",
+      "preflight": {
+        "exit_code": 1,
+        "status": "FAIL"
+      },
+      "status": "FAIL"
+    }
+  ],
+  "jobs_root": "fixtures/batch_jobs",
+  "passed_jobs": 0,
+  "preflight": {
+    "exit_code": 1,
+    "status": "FAIL"
+  },
+  "processed_jobs": 1,
+  "strict_batch": true,
+  "total_jobs": 2
+}

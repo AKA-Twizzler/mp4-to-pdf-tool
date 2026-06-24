@@ -1,0 +1,5 @@
+mode: fps
+quality_profile: jpeg_small
+input_mp4: fixtures/cfr10_3s.mp4
+output_pdf: fixtures/job_examples/smallest/output.pdf
+selector_fps: 1
